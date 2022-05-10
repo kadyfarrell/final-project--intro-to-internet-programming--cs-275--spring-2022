@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+</head>
 
+<body>
+    <h1> Slide Show </h1>
+    <div class="carousel">
+        <div class = "carouselContainer">
+            <ul class = "carouselTrack">
+                <li class="carouselSlide currentSlide" >
+                    <img class="caourselImages" src="img/blue.png" alt="blue">
+                    <p class="slideName"> BLUE </p>
+                    <p class="content"> Aenean sit amet nisl risus. Aliquam et elit augue. Cras ligula enim, tristique vitae metus in, porttitor luctus mi. Integer mollis mollis erat, sed consequat ante auctor sed. Pellentesque eget nulla sem. Etiam et turpis euismod, commodo enim vitae, pharetra elit. Nulla leo justo, lobortis id condimentum sed, venenatis ut. </p>
+                </li>
+                <li class="carouselSlide">
+                    <img class="caourselImages" src="img/green.png" alt="green">
+                    <p class="slideName"> GREEN </p>
+                    <p class="content"> Ut vel eros lorem. Phasellus metus urna, dapibus vitae lorem ut, gravida mollis erat. Pellentesque nulla tellus, feugiat eget ornare ut, elementum a nulla. Etiam gravida, augue at iaculis luctus, turpis nibh vestibulum enim, in auctor dui dui vitae ante. Morbi porta interdum commodo. Curabitur vulputate facilisis velit, in dapibus. </p>
+                </li>
+                <li class="carouselSlide">
+                    <img class="caourselImages" src="img/red.png" alt="red" >
+                    <p class="slideName"> RED </p>
+                    <p class="content"> Vivamus pulvinar purus id turpis lobortis porttitor. In volutpat orci mattis, molestie metus sit amet, laoreet dolor. In hac habitasse platea dictumst. Vivamus fringilla odio sed dui placerat, nec venenatis sem dapibus. Aenean eget ipsum congue, iaculis lectus quis, posuere lectus. Nullam id dictum nisi, at egestas mi. Pellentesque habitant. </p>
+                </li>
+                <li class="carouselSlide">
+                    <img class="caourselImages" src="img/black.png" alt="black">
+                    <p class="slideName"> BLACK </p>
+                    <p class="content"> Donec feugiat magna ut libero ultricies, quis eleifend orci luctus. Nulla eleifend venenatis risus, a auctor urna consequat hendrerit. Donec porttitor suscipit metus eu ultricies. Nunc sit amet luctus ex. Morbi sodales sodales lacus vitae iaculis. Pellentesque efficitur tellus est, interdum euismod enim vehicula ut. Integer aliquam, justo vitae fermentum. </p>
+                </li>
+                <li class="carouselSlide">
+                    <img class="caourselImages" src="img/original-image.png" alt="medicine">
+                    <p class="slideName"> OVER-THE-COUNTER </p>
+                    <p class="content"> Sleep drugs you can buy without a prescription aren't much safer than Rx drugs. In fact, it's easy to take high doses of them because their active ingredients-the antahistamines diphenhydramine and doxylamine-aren't only in OTC sleep productssuch as Sominex and ZzzQuil. They're also in nighttime pain relievers such as Advil PM and Tylenol PM, as well as allergy meds such as Benadryl. </p>
+                </li>
+            </ul>
+        </div>
+        <button class = "carouselButton carouselButton--right">
+            <img src="img/right-arrow.svg" alt="rightArrow">
+        </button>
+        <button class = "carouselButton carouselButton--left">
+            <img src="img/left-arrow.svg" alt="leftArrow">
+        </button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
