@@ -1,1 +1,94 @@
+body {
+  font-size: 16px;
+}
 
+h1 {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.slideName {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  padding-left: 250px;
+  line-height: 1.125;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  padding-left: 250px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  line-height: 1.125;
+}
+
+.carousel {
+  position: relative;
+  height: 280px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.carouselContainer {
+  border-left: solid;
+  border-right: solid;
+  border-width: 40px;
+  border-color: whitesmoke;
+  background: lightgrey;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselTrack {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carouselSlide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carouselButton--left {
+  left: -10px;
+}
+
+.carouselButton--right {
+  right: -10px;
+}
+
+.carouselButton img {
+  width: 35px;
+  height: 100%;
+}
+
+.carouselSlide img {
+  position: absolute;
+  padding: 15px 18px;
+}
+
+.carouselButton--left {
+  left: -10px;
+  display: none;
+}
